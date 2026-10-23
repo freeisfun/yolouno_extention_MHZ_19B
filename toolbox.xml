@@ -1,0 +1,14 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="mhz19b" name="MH-Z19B" colour="#1f9d8a" icon="cloud">
+    <block type="mhz19b_init">
+      <field name="TX">pin14</field>
+      <field name="RX">pin15</field>
+    </block>
+    <block type="mhz19b_read_co2"></block>
+    <block type="mhz19b_read_temp"></block>
+    <block type="mhz19b_is_ready"></block>
+    <block type="mhz19b_calibrate_zero"></block>
+    <block type="mhz19b_auto_calibrate"></block>
+    <block type="mhz19b_set_range"></block>
+  </category>
+</xml>

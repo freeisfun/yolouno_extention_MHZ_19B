@@ -1,0 +1,14 @@
+{
+  "name": "MH-Z19B CO2",
+  "description": "Mục mở rộng hỗ trợ cảm biến khí CO2 MH-Z19B (giao tiếp UART)",
+  "libs": [
+    "mhz19b.py"
+  ],
+  "blocks": [
+    "definition.js"
+  ],
+  "toolbox": "toolbox.xml",
+  "languages": {
+  },
+  "poster": "poster.png"
+}
